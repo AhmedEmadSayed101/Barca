@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.header {
+  background-color: transparent;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffed02;
+  display: flex;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.y {
+  background-color: rgba(0, 0, 0, 0.712);
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffed02;
+  display: flex;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.mes {
+  color: aliceblue;
+}
+.logo a {
+  font-size: 55px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #00bfff;
+}
+.logo a:hover {
+  color: #a50044;
+}
+.logo img {
+  width: 55px;
+}
+.nav a {
+  padding-left: 10px;
+}
+.nav a {
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #00bfff;
+}
+.nav a:hover {
+  color: #a50044;
+}
+.wall {
+  background-image: url("./wallpaper.jpg");
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.trophies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  align-items: center;
+}
+.title {
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  width: 80%;
+}
+.cupimg img {
+  width: 200px;
+  border-radius: 10px;
+}
+.info {
+  margin-top: 20px;
+}
+.info h3 {
+  color: aliceblue;
+}
+.info p {
+  margin-top: 5px;
+  color: aliceblue;
+}
+.trophcard {
+  background-image: url("./cardbg.jpg");
+  padding: 25px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.trophcard a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.trophcard a:hover {
+  color: #a50044;
+}
+.trophcard:hover {
+  transform: scale(1.1);
+}
+.legends {
+  background-color: black;
+}
+.legends h2 {
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.content2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.legcard {
+  background-image: url("./testbg.jpg");
+  border-radius: 10px;
+  border: 1px double silver;
+  width: 650px;
+  height: 550px;
+  overflow: hidden;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s;
+}
+.player img {
+  max-height: 250px;
+  min-width: 400px;
+  margin-left: 95px;
+  border-radius: 10px;
+}
+.playerinfo h3 {
+  color: gold;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.playerinfo p {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.more a {
+  color: #a50044;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12;
+  text-decoration: none;
+  font-weight: bold;
+}
+.more {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.more a:hover {
+  color: #00bfff;
+}
+.flag img {
+  width: 30px;
+  border-radius: 3px;
+}
+.legcard:hover {
+  transform: scale(1.1);
+}
+.legcard:hover .player {
+  opacity: 0.9;
+}
+.legcard1 {
+  background-image: url("./testbg.jpg");
+  border-radius: 10px;
+  border: 1px double rgb(255, 0, 119);
+  width: 650px;
+  height: 550px;
+  overflow: hidden;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s;
+}
+.legcard1:hover {
+  transform: scale(1.1);
+}
+.legcard1:hover .player {
+  opacity: 0.9;
+}
+.content3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 100px;
+  padding: 25px;
+  gap: 25px;
+}
+.shop {
+  background-color: black;
+  padding: 25px;
+}
+.shop h2 {
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.item img {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shopcard {
+  padding: 25px;
+  background-color: #a50044;
+  width: 300px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.shopcard:hover {
+  transform: scale(1.1);
+}
+.shopcard h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.itembio {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.order {
+  display: flex;
+  justify-content: flex-end;
+}
+.order a {
+  color: white;
+  padding-top: 30px;
+  text-decoration: none;
+}
+.order a:hover {
+  color: #00bfff;
+}
+.s {
+  color: black;
+  font-size: 18px;
+}
+.cardshop {
+  padding: 25px;
+  background-color: #004d98;
+  width: 300px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.cardshop:hover {
+  transform: scale(1.1);
+}
+.cardshop h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.order2 a:hover {
+  color: #a50044;
+}
+.order2 a {
+  color: white;
+  padding-top: 50px;
+  text-decoration: none;
+}
+.order2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.special {
+  border: 5px double silver;
+  padding: 25px;
+  background-color: #004d98;
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.special h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.edition {
+  padding-top: 15px;
+  font-size: 15px;
+  color: gold;
+}
+.special:hover {
+  transform: scale(1.1);
+}
+.special2 {
+  border: 5px double silver;
+  padding: 25px;
+  background-color: #a50044;
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.special2 h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.special2:hover {
+  transform: scale(1.1);
+}
+.items {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last h3 {
+  color: aliceblue;
+}
+.last {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.order3 {
+  display: flex;
+  justify-content: flex-end;
+}
+.order3 a {
+  color: white;
+  padding-top: 20px;
+  text-decoration: none;
+}
+.order3 a:hover {
+  color: #00bfff;
+}
